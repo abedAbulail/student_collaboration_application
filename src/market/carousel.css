@@ -1,0 +1,48 @@
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    /* Set to the desired width */
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-image {
+    max-width: 100%;
+    /* Ensure image fits in the container */
+    display: block;
+    /* Remove extra space below the image */
+   
+}
+* {
+    box-sizing: border-box;
+
+}
+.re{
+    width: 100%;
+    
+/* background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.4290966386554622) 63%, rgba(223, 173, 123, 1) 68%, rgba(223, 173, 123, 1) 100%); */
+
+    background: rgb(67, 67, 67);
+        background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.4290966386554622) 78%, rgba(223, 173, 123, 1) 78%, #dfad7b 100%);}
+.itemsH{
+    
+    width :80%;
+    height: 120px;
+     margin-left: auto;
+    margin-right: auto;
+    background-image: url("https: //i.pinimg.com/736x/c0/57/04/c057042465f61b243234b49eec15efb7.jpg");
+    background-size: cover;
+}
+.imagee{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-image: url("https: //i.pinimg.com/736x/c0/57/04/c057042465f61b243234b49eec15efb7.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
